@@ -468,6 +468,7 @@ a:hover .content_box_cover img {
 
     .main_desc {
         width: 100%;
+        font-size: 14px;
         text-align: center;
         position: absolute;
         left: 50%;
@@ -475,6 +476,38 @@ a:hover .content_box_cover img {
         top: auto;
         bottom: 50px;
         transform: translateX(-50%);
+    }
+
+    .main_title {
+        font-size: 2.5em;
+        font-weight: 500;
+        line-height: 1;
+        padding-bottom: 20px;
+    }
+
+    .main_title span {
+        margin-left: 10px;
+    }
+    
+    .main_title_sub {
+        font-weight: 300;
+        font-size: 1.3em;
+        padding-bottom: 20px;
+    }
+    
+    .main_title_sub span {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .main_btn {
+        position: relative;
+        font-size: 1em;
+        font-weight: 500;
+        padding: 1em;
+        border: 1px solid;
+        border-radius: 5px; 
+        overflow: hidden;
     }
 
     /* n a v b a r */
@@ -530,7 +563,7 @@ a:hover .content_box_cover img {
     .portfolio_menu_tab {
         white-space: normal;
         border-bottom: none;
-        padding: 1.2rem 0;
+        padding: 14px 0;
     }
 
     .portfolio_menu_tab-active {
