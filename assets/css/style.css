@@ -457,7 +457,7 @@ a:hover .content_box_cover img {
     /* m a i n */
     .main .main_cover {
         position: relative;
-        height: 90vh;
+        height: 100vh;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -474,7 +474,7 @@ a:hover .content_box_cover img {
         left: 50%;
         right: auto;
         top: auto;
-        bottom: 50px;
+        bottom: 5%;
         transform: translateX(-50%);
     }
 
@@ -482,7 +482,7 @@ a:hover .content_box_cover img {
         font-size: 2.5em;
         font-weight: 500;
         line-height: 1;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
 
     .main_title span {
